@@ -41,10 +41,57 @@ echo $distanceBetweenSydneyAndMelbourne;
 
 ```
 
-### Testing
 
-```bash
-composer test
+```php
+<?php
+
+// Import the GeoLocationCalculator class from the Webchefz\GeoLocationCalculator namespace
+use Webchefz\GeoLocationCalculator\GeoLocationCalculator;
+
+// Load Composer's autoloader to autoload the required classes
+require 'vendor/autoload.php';
+
+// Define details for the first city, Sydney, in an associative array
+$sydneyDetails = [
+    "name" => "Sydney",
+    "country" => "Australia",
+    "state" => "New South Wales"
+];
+
+// Define details for the second city, Melbourne, in an associative array
+$melbourneDetails = [
+    "name" => "Melbourne",
+    "country" => "Australia",
+    "state" => "Victoria"
+];
+
+// Calculate the distance between Sydney and Melbourne using a GeoLocationCalculator class
+$distanceBetweenSydneyAndMelbourne = GeoLocationCalculator::calculateDistanceBetweenDefinedCities($sydneyDetails, $melbourneDetails);
+
+// Display the calculated distance between Sydney and Melbourne
+echo $distanceBetweenSydneyAndMelbourne;
+
+```
+
+```php
+<?php
+
+// Import the GeoLocationCalculator class from the Webchefz\GeoLocationCalculator namespace
+use Webchefz\GeoLocationCalculator\GeoLocationCalculator;
+
+// Load Composer's autoloader to autoload the required classes
+require 'vendor/autoload.php';
+
+// Switch the cities for the distance calculation
+$switchedCity1 = "Sydney";
+$switchedCity2 = "Melbourne";
+
+// Recalculate the distance between the switched cities using the same GeoLocationCalculator class
+$distanceBetweenSwitchedCities = GeoLocationCalculator::calculateDistanceBetweenDefinedCities($switchedCity1, $switchedCity2);
+
+// Display the recalculated distance between the switched cities
+echo $distanceBetweenSwitchedCities;
+
 ```
 
 ### Changelog
