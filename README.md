@@ -16,6 +16,7 @@ composer require webchefz/geo-location-calculator
 ## Usage
 
 ```php
+<?php
 
 // Import the GeoLocationCalculator class from the Webchefz\GeoLocationCalculator namespace
 use Webchefz\GeoLocationCalculator\GeoLocationCalculator;
