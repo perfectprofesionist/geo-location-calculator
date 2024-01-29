@@ -16,7 +16,8 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^7.4|^8.0",
+        "webchefz/geo-location-calculator": "1.0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0"
@@ -38,5 +39,7 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
