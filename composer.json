@@ -1,0 +1,42 @@
+{
+    "name": "webchefz/geo-location-calculator",
+    "description": "A lightweight PHP library for handling geo-locations in web development.",
+    "keywords": [
+        "webchefz",
+        "geo-location-calculator"
+    ],
+    "homepage": "https://github.com/perfectprofesionist/geo-location-calculator",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Webchefz",
+            "email": "info@webchefz.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webchefz\\GeoLocationCalculator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webchefz\\GeoLocationCalculator\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
