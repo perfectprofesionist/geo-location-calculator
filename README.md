@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/webchefz/geo-location-calculator.svg?style=flat-square)](https://packagist.org/packages/webchefz/geo-location-calculator)
 [![Total Downloads](https://img.shields.io/packagist/dt/webchefz/geo-location-calculator.svg?style=flat-square)](https://packagist.org/packages/webchefz/geo-location-calculator)
-![GitHub Actions](https://github.com/perfectprofesionist/geo-location-calculator/actions/workflows/main.yml/badge.svg)
 
 
 
@@ -17,7 +16,28 @@ composer require webchefz/geo-location-calculator
 ## Usage
 
 ```php
-// Usage description here
+
+// Import the GeoLocationCalculator class from the Webchefz\GeoLocationCalculator namespace
+use Webchefz\GeoLocationCalculator\GeoLocationCalculator;
+
+// Load Composer's autoloader to autoload the required classes
+require 'vendor/autoload.php';
+
+// Coordinates for the first location (Sydney, Australia)
+$latitudeSydney = -33.8688;    // Latitude of Sydney
+$longitudeSydney = 151.2093;   // Longitude of Sydney
+
+// Coordinates for the second location (Melbourne, Australia)
+$latitudeMelbourne = -37.8136;    // Latitude of Melbourne
+$longitudeMelbourne = 144.9631;   // Longitude of Melbourne
+
+// Calculate the distance between Sydney and Melbourne using the GeoLocationCalculator class
+// The GeoLocationCalculator::calculateDistance method returns the distance in kilometers
+$distanceBetweenSydneyAndMelbourne = GeoLocationCalculator::calculateDistance($latitudeSydney, $longitudeSydney, $latitudeMelbourne, $longitudeMelbourne);
+
+// Output the calculated distance in Killometers
+echo $distanceBetweenSydneyAndMelbourne;
+
 ```
 
 ### Testing
