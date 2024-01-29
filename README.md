@@ -1,4 +1,4 @@
-# Very short description of the package
+# Description of the package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/webchefz/geo-location-calculator.svg?style=flat-square)](https://packagist.org/packages/webchefz/geo-location-calculator)
 [![Total Downloads](https://img.shields.io/packagist/dt/webchefz/geo-location-calculator.svg?style=flat-square)](https://packagist.org/packages/webchefz/geo-location-calculator)
