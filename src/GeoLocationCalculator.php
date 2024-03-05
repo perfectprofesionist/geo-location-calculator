@@ -26,6 +26,11 @@ class GeoLocationCalculator
      */
     public static function calculateDistance($lat1, $lon1, $lat2, $lon2)
     {
+         // Validate input values
+        if (!is_numeric($lat1) || !is_numeric($lon1) || !is_numeric($lat2) || !is_numeric($lon2)) {
+            throw new InvalidArgumentException('Invalid input. Latitude and longitude values must be numbers.');
+        }
+
         // Radius of the Earth in kilometers
         $earthRadius = 6371;
 
