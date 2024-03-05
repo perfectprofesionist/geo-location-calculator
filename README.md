@@ -8,6 +8,7 @@
 
 
 ## Installation
+The ***webchefz/geo-location-calculator*** package is a software component or module designed to facilitate the calculation of distances between geographical locations on the Earth's surface. It is particularly useful for applications that require spatial analysis or those that involve working with geographic data, such as mapping, navigation, or location-based services.
 
 You can install the package via composer:
 
