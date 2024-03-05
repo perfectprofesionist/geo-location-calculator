@@ -108,7 +108,8 @@ If you discover any security related issues, please email info@webchefz.com inst
 
 ## Credits
 
--   [Webchefz](https://github.com/perfectprofesionist)
+-   [Perfect Profesionist](https://github.com/perfectprofesionist)
+-   [Webchefz](https://www.webchefz.com) 
 -   [All Contributors](../../contributors)
 
 ## License
