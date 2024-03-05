@@ -1,9 +1,9 @@
 # Description of the package
 
-[![Latest Stable Version](https://poser.pugx.org/webchefz/geo-location-calculator/version.svg)](https://packagist.org/packages/webchefz/geo-location-calculator)
+[![Latest Stable Version](https://poser.pugx.org/webchefz/geo-location-calculator/version.svg?style=flat-square)](https://packagist.org/packages/webchefz/geo-location-calculator)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/webchefz/geo-location-calculator.svg?style=flat-square)](https://packagist.org/packages/webchefz/geo-location-calculator)
 [![Total Downloads](https://img.shields.io/packagist/dt/webchefz/geo-location-calculator.svg?style=flat-square)](https://packagist.org/packages/webchefz/geo-location-calculator)
-[![Total Downloads](https://poser.pugx.org/webchefz/geo-location-calculator/require/php)](https://packagist.org/packages/webchefz/geo-location-calculator)
+[![Total Downloads](https://poser.pugx.org/webchefz/geo-location-calculator/require/php?style=flat-square)](https://packagist.org/packages/webchefz/geo-location-calculator)
 
 
 
